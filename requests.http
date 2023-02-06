@@ -1,0 +1,4 @@
+### get demo without auth, should return 401
+GET http://localhost:8080/demo
+
+### get demo with auth, should return 200 and "demo"
